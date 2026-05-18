@@ -51,6 +51,42 @@
 
 ---
 
+## 작업 프로세스
+
+```mermaid
+flowchart LR
+    A[문제 이해] --> B[사용자 분석]
+    B --> C[정보 구조 설계]
+    C --> D[와이어프레임]
+    D --> E[UI 디자인]
+    E --> F[프로토타입]
+    F --> G[피드백 반영]
+    G --> H[웹 구현 검토]
+```
+---
+
+## 디자인 사고 구조
+
+```mermaid
+mindmap
+  root((Design))
+    UX
+      사용자 흐름
+      정보 구조
+      와이어프레임
+      프로토타입
+    UI
+      레이아웃
+      컬러
+      타이포그래피
+      컴포넌트
+    Web
+      HTML
+      CSS
+      JavaScript
+      반응형 웹
+```
+
 ## Contact
 
 📧 [hi589913@naver.com](mailto:hi589913@naver.com)
